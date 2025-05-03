@@ -42,6 +42,7 @@
         "APPLE_SUPPRESS_X11_WARNING": "ON",
         "CMAKE_COLOR_MAKEFILE": "ON",
         "CMAKE_BUILD_WITH_INSTALL_RPATH": "ON",
+        "CMAKE_CXX_FLAGS": "-Wno-deprecated -Wno-deprecated-declarations -Wno-ignored-attributes -Wno-attributes -DQT_NO_DEPRECATED_WARNINGS -DKF_NO_DEPRECATED_WARNINGS",
         "CMAKE_INSTALL_NAME_DIR": "/opt/homebrew/lib",
         "CMAKE_SYSTEM_PREFIX_PATH": "/opt/homebrew",
         "CMAKE_MODULE_PATH": "/opt/homebrew/share/cmake/Modules;/opt/homebrew/share/cmake-3.7/Modules",
