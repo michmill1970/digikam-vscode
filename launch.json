@@ -19,7 +19,8 @@
         //   "value": "/opt/homebrew/opt/qt/plugins/platforms"
         // },
       ],
-      "MIMode": "lldb"
+      "MIMode": "lldb",
+      "targetArchitecture": "arm64"
       // "preLaunchTask": "build"
     }
   ]
