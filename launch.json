@@ -22,6 +22,28 @@
       "MIMode": "lldb",
       "targetArchitecture": "arm64"
       // "preLaunchTask": "build"
+    },
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "Installed Program (LLDB)",
+      "program": "/Applications/digiKam.org/digikam.app/Contents/MacOS/digikam",
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "environment": [
+        {
+          "name": "QT_LOGGING_RULES",
+          // "value": "qt.qpa.*=false;qt.*=false;digikam.*=true"
+          "value": "digikam.*=true"
+        }
+        // {
+        //   "name": "QT_QPA_PLATFORM_PLUGIN_PATH",
+        //   "value": "/opt/homebrew/opt/qt/plugins/platforms"
+        // },
+      ],
+      "MIMode": "lldb",
+      "targetArchitecture": "arm64"
+      // "preLaunchTask": "build"
     }
   ]
 }
